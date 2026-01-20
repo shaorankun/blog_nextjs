@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
     // Chỉ áp dụng cho đường dẫn /api/secret
     if (request.nextUrl.pathname.startsWith('/api/secret')) {
         const apiKey = request.headers.get('x-api-key');
