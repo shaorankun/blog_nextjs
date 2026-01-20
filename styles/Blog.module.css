@@ -1,0 +1,100 @@
+/* styles/Blog.module.css */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+    border-color: #0070f3;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    align-items: center;
+}
+
+.thumbnailWrapper {
+    flex-shrink: 0; /* Không cho ảnh bị co lại */
+}
+
+.thumbnail {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.contentWrapper {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.postTitle {
+    margin: 0 0 10px 0;
+    font-size: 1.25rem;
+    color: #0070f3;
+}
+
+.date {
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.excerpt {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Đẩy 2 phần tử ra 2 đầu */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 30px;
+}
+
+/* Ghi đè margin của title cũ để layout flex hoạt động đẹp hơn */
+.header .title {
+    margin-bottom: 0;
+    text-align: left; /* Canh trái thay vì giữa như cũ */
+}
+
+/* Style cho nút Dashboard */
+.dashboardBtn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    font-size: 0.9rem;
+}
+
+.dashboardBtn:hover {
+    background-color: #333;
+}

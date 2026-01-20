@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Khám phá React 19 và React Compiler",
+    "date": "2025-11-20",
+    "image": "/images/react.jpg",
+    "content": "React 19 mang đến những thay đổi mang tính cách mạng. Tính năng React Compiler mới (trước đây là React Forget) sẽ tự động tối ưu hóa code, giúp loại bỏ sự cần thiết của useMemo và useCallback thủ công. Điều này giúp code gọn gàng hơn và hiệu năng cao hơn mà không cần developers phải quản lý dependency arrays phức tạp."
+  },
+  {
+    "id": "2",
+    "title": "Tại sao Next.js là chuẩn mực cho Web hiện đại?",
+    "date": "2025-12-05",
+    "image": "/images/nextjs.jpg",
+    "content": "Next.js không chỉ là một thư viện mà là một Framework toàn diện. Với khả năng hỗ trợ cả Server-Side Rendering (SSR), Static Site Generation (SSG) và mới nhất là Incremental Static Regeneration (ISR), Next.js giải quyết bài toán khó nhất của Single Page Application: SEO và tốc độ tải trang ban đầu."
+  },
+  {
+    "id": "3",
+    "title": "Lộ trình Data Science cho người mới bắt đầu",
+    "date": "2026-01-15",
+    "image": "/images/datascience.jpg",
+    "content": "Để trở thành Data Scientist, bạn cần nắm vững Statistics, Python và các thư viện như Pandas, NumPy. Sau đó, hãy đi sâu vào Machine Learning với Scikit-Learn và Deep Learning với TensorFlow hoặc PyTorch. Quan trọng nhất là tư duy phân tích dữ liệu để giải quyết bài toán kinh doanh thực tế."
+  },
+  {
+    "id": "4",
+    "title": "Xây dựng ứng dụng Fullstack với MERN Stack",
+    "date": "2025-10-10",
+    "image": "/images/mern.jpg",
+    "content": "MERN Stack (MongoDB, Express, React, Node.js) là lựa chọn tuyệt vời cho các dự án khởi nghiệp. Điểm mạnh của nó là sử dụng JavaScript xuyên suốt từ Frontend đến Backend (JSON everywhere), giúp việc phát triển đồng bộ và nhanh chóng hơn bao giờ hết."
+  },
+  {
+    "id": "5",
+    "title": "Tối ưu hóa Web Performance",
+    "date": "2026-01-02",
+    "image": "/images/web.jpg",
+    "content": "Web Performance không chỉ là tốc độ tải, mà còn là trải nghiệm người dùng (UX). Các chỉ số Core Web Vitals như LCP (Largest Contentful Paint), FID (First Input Delay) và CLS (Cumulative Layout Shift) là thước đo quan trọng mà Google sử dụng để xếp hạng website của bạn."
+  }
+]
